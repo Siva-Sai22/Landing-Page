@@ -47,6 +47,21 @@ button, .adbox {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+    padding: 128px 256px;
+}
+
+.content-3 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sign {
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 button {
@@ -76,4 +91,36 @@ button {
 .content-1 img {
     min-width: 500px;
     min-height: 150px;
+}
+
+.content-2 {
+    margin-top: 16px;
+    margin-bottom: 128px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-2 img {
+    max-width: 170px;
+    max-height: 170px;
+    border-radius: 12px;
+    display: block;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.text {
+    width: 170px;
+}
+
+.adbox {
+    margin: 64px 128px;
+    padding: 32px 64px;
+    border-radius: 12px;
 }
