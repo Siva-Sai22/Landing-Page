@@ -16,7 +16,7 @@ a {
     background-color: #1f2937;
 }
 
-.header a, .content-1 p {
+.header a, .content-1 p,.footer {
     font-size: 18px;
     color: #e5e7eb;
     margin-top: 0px;
@@ -123,4 +123,9 @@ button {
     margin: 64px 128px;
     padding: 32px 64px;
     border-radius: 12px;
+}
+
+.footer {
+    padding: 24px;
+    text-align: center;
 }
