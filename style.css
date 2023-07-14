@@ -1,6 +1,7 @@
 body {
     font-family: "roboto", sans-serif;
     box-sizing: border-box;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -81,6 +82,7 @@ button {
 }
 
 .content-1 {
+    flex: 1;
     padding: 48px 24px 150px 24px;
     display: flex;
     align-items: center;
